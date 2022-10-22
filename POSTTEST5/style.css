@@ -1,0 +1,229 @@
+/* style keseluruhan */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* style gambar background */
+.header{ 
+    min-height: 100vh;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(image/coversekolah.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 100px;
+
+}
+
+/* buat style tulisan di header */
+.nav-links{
+    flex: 1;
+    text-align: center;
+}
+
+/* style tulisan header jadi kek tabel */
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    text-decoration-color: burlywood;
+}
+
+/* style tulisan header berwarna */
+.nav-links ul li a{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* style tulisan header ada garis bawah */
+.nav-links ul li::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+/*  style untuk text-box */
+.text-box{
+    width: 90%;
+    color: aliceblue;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+/* style h1 di dalam text-box */
+.text-box h1{
+    font-size: 62px;
+}
+
+/* style p di dalam text_box */
+.text-box p{
+    margin: 10px, 0, 40px;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+.info{
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    border: 1px solid white;
+    padding: 10px 30px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.info:hover{
+    border: 1px solid white;
+    background-color: lightsalmon;
+    transition: 1s;
+}
+
+.footer{
+    background: #6eb5ff;
+    margin: auto;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.tabel{
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topik{
+    flex-basis: 31%;
+    background: #6eb5ff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 20px 10px 10px;
+    box-sizing: border-box;
+    transition: 1s;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+/* .h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+} */
+
+.topik:hover{
+    box-shadow: 0 0 20px 0px aliceblue;
+}
+
+.gambar{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.topik img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* .bio{
+    background: #6eb5ff;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+} */
+
+.bio{
+    width: 100px;
+    padding: 78px 0px;
+}
+
+.bio img {
+    height: auto;
+    width: 200px;
+    margin-left: 30%;
+}
+
+.teks{
+    width: 550px;
+}
+
+.saya{
+    width: 1130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+i{
+    font-size: 28px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+}
+
+.form{
+    background: #6eb5ff;
+    margin: auto;
+    justify-content: center;
+    padding: 10px 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.daftar{
+    flex-basis: 31%;
+    text-align: center;
+    padding: 20px 20px 10px 10px;
+    box-sizing: border-box;
+    transition: 1s;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.daftar img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
